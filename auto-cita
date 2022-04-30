@@ -1,11 +1,11 @@
-Proceso agendador_de_citas
+Proceso auto_cita
 	Escribir "introduzca su nombre completo"
 	Leer n1
 	Escribir "introduzca la matricula del vehiculo"
 	Leer n2
 	Escribir "introduzca la marca y el modelo del vehiculo"
 	Leer n4
-	Escribir "seleccione el tipo de servicio que va a realizar, donde (1) Mantenimiento, (2) Luces, (3)Sonido extraño, (4)Otro"
+	Escribir "seleccione el tipo de servicio que va a realizar, donde (1) Mantenimiento, (2) Luces, (3)Sonido extraÃ±o, (4)Otro"
 	Leer n3
 	servicio<-n3
 	Si servicio=1 Entonces
@@ -17,7 +17,7 @@ Proceso agendador_de_citas
 			
 		Sino
 			Si servicio=3 Entonces
-				Escribir 	"HA SELECCIONADO  EL SERVICIO DE INSPECCION POR SONIDO EXTRAÑO" 
+				Escribir 	"HA SELECCIONADO  EL SERVICIO DE INSPECCION POR SONIDO EXTRAÃ‘O" 
 				
 			Sino
 				Si servicio=4 Entonces
@@ -71,7 +71,7 @@ Proceso agendador_de_citas
 			Escribir "mal servicio"
 			
 		FinSi
-		Escribir "¿Desea repetir la encuesta? ingrese S para si, X para finalizar"
+		Escribir "Â¿Desea repetir la encuesta? ingrese S para si, X para finalizar"
 		Leer b
 		
 	Hasta Que b="X" o b="x"
